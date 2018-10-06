@@ -1,2 +1,9 @@
 # terminus
-Dockerfile for running terminus
+
+Dockerfile for running [terminus](https://pantheon.io/docs/terminus/)
+
+## Usage
+
+`docker run --rm -it --volume ~/.terminus:/tmp/.terminus subhaze/terminus [args...]`
+
+The above will mount a local folder to store terminus cache info, such as auth credentials.
