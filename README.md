@@ -8,4 +8,4 @@ Dockerfile for running [terminus](https://pantheon.io/docs/terminus/)
 
 The above will mount a local folder to store terminus cache info, such as auth credentials.
 
-### Terminus Version 2.0.0
+### Terminus Version 1.9.0
